@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions</title>
+    <title>AP Statistics Unit 5: Sampling Distributions</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -40,8 +40,11 @@
 <body class="bg-gray-100 min-h-screen">
     <div class="container mx-auto px-4 py-8">
         <header class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions</h1>
+            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 5: Sampling Distributions</h1>
             <p class="text-gray-600 mt-2">Tools and guides to help you succeed in AP Statistics</p>
+            <div class="mt-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-md inline-block">
+                <span class="font-semibold">Exam Weight:</span> Unit 5 represents 7-12% of the AP Statistics Exam
+            </div>
         </header>
         
         <!-- Tab Navigation -->
@@ -184,7 +187,7 @@
                 <!-- All Topics Completed Message -->
                 <div id="all-completed-container" class="hidden mb-6 p-6 bg-green-50 border border-green-200 rounded-lg text-center">
                     <h3 class="text-xl font-bold text-green-700 mb-2">🎉 Congratulations! 🎉</h3>
-                    <p class="text-green-700 mb-4">You've completed all Unit 4 topics including the capstone Progress Check!</p>
+                    <p class="text-green-700 mb-4">You've completed all Unit 5 topics including the capstone Progress Check!</p>
                     <button id="reset-progress-btn" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
                         Reset Progress
                     </button>
@@ -346,143 +349,106 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         // Define the PDF files and organize them by topic
         const pdfFiles = [
             {
-                id: "4-1",
-                name: "Topic 4.1",
-                description: "Introducing Statistics: Random and Non-Random Patterns?",
-                videoUrl: "https://apclassroom.collegeboard.org/d/7vn9faj6p9?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1lNfQZIrnUbG6JkCzw4wB-kcYNHpckwc-/view?usp=drive_link",
+                id: "5-1",
+                name: "Topic 5.1",
+                description: "Introducing Statistics: Why Is My Sample Not Like Yours?",
+                videoUrl: "https://apclassroom.collegeboard.org/d/951j439qxl?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1QtdgRvz6FDzTKK4UgACKVxdqJMyZDGR8/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-2",
-                name: "Topic 4.2",
-                description: "Estimating Probabilities Using Simulation",
-                questionPdf: "pdfs/unit4/4.2_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.2_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/lbulj7eskd?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/v5phdup7pz?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1qdvG72sMnfrQAavaoLV7x4wa1o_uE5Eh/view?usp=drive_link",
-                altVideoUrl2: "https://drive.google.com/file/d/1ksMiLGYx5cFCg1-Zosq4m_D_mlt2M7qo/view?usp=drive_link",
+                id: "5-2",
+                name: "Topic 5.2",
+                description: "The Normal Distribution, Revisited",
+                questionPdf: "pdfs/unit5/5.2_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.2_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/3ahfseusno?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/xas8ymbml4?sui=33,5",
+                videoUrl3: "https://apclassroom.collegeboard.org/d/5cjfnynb4w?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1JFYjH0zXcPRk4Z18dTnbqWQLhu6IM_y3/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1pRBVyjLPY1aEPGbkTdYzt5aPlQIy9FDW/view?usp=drive_link",
+                altVideoUrl3: "https://drive.google.com/file/d/1HVGa0OuHML6pHhGdp4UOln6oncX3n53_/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-3",
-                name: "Topic 4.3",
-                description: "Introduction to Probability",
-                questionPdf: "pdfs/unit4/4.3_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.3_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/3naih8n3ar?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1eAYcRNceHy01t7bmARB3vtTDZnNNqmOV/view?usp=drive_link",
+                id: "5-3",
+                name: "Topic 5.3",
+                description: "The Central Limit Theorem",
+                questionPdf: "pdfs/unit5/5.3_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.3_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/sayt12b4ew?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/7vvumt4qzm?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1N5xTQ9hpOwIDTxbF0AxIzPxxaCbmOWaA/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1Lrf2azQI_qx0zLOyp0Yn-TS11zK4fb5u/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-4",
-                name: "Topic 4.4",
-                description: "Mutually Exclusive Events",
-                questionPdf: "pdfs/unit4/4.4_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.4_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/owppp11zpq?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1TRJBAVaIbAWWLREvsDgRCxf0sNcFkpxf/view?usp=drive_link",
+                id: "5-4",
+                name: "Topic 5.4",
+                description: "Biased and Unbiased Point Estimates",
+                questionPdf: "pdfs/unit5/5.4_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.4_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/0k9y4dbl6i?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1n0CE4BjYdx_bRDz-iEH2FyK7sfgcG3Mj/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-5",
-                name: "Topic 4.5",
-                description: "Conditional Probability",
-                questionPdf: "pdfs/unit4/4.5_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.5_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/d4g6056pk8?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1fpXLiPwBKO3kqppTWm4FpqjCcHX3Qf84/view?usp=drive_link",
+                id: "5-5",
+                name: "Topic 5.5",
+                description: "Sampling Distributions for Sample Proportions",
+                questionPdf: "pdfs/unit5/5.5_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.5_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/n68xwj4nrz?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/3hds9p8qlq?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1y1iW173PGADlfmDuZuvUYwg-czY2FKCo/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1EosOt0OTG3faHrdnkhQy-SrFdAxRndjF/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-6",
-                name: "Topic 4.6",
-                description: "Independent Events and Unions of Events",
-                questionPdf: "pdfs/unit4/4.6_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.6_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/nsd56rqpjj?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/5dfvjr08nh?sui=33,4",
-                videoUrl3: "https://apclassroom.collegeboard.org/d/j9zx3pjmpi?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1TwLZF8dM35fcduBwRzmQUWgSTCynk5tV/view?usp=drive_link",
-                altVideoUrl2: "https://drive.google.com/file/d/1qOQsPzsOeNQJHu18PJwUbfsQyjrdP2pV/view?usp=drive_link",
+                id: "5-6",
+                name: "Topic 5.6",
+                description: "Sampling Distributions for Differences in Sample Proportions",
+                questionPdf: "pdfs/unit5/5.6_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.6_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/hl9fyvkpih?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/ik3wqrxnwg?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1XufYZpotzaSRppEfFckSzr6mVavfTWoX/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1_C6vTO44i3ypH5wU2XYU53BOa4whSZxW/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-7",
-                name: "Topic 4.7",
-                description: "Introduction to Random Variables and Probability Distributions",
-                questionPdf: "pdfs/unit4/4.7_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.7_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/qgm2j1noql?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/a7hqt3u3mr?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1UgJNPPVuG8ZGUobUD-KfM_EQz9AKfgAX/view?usp=drive_link",
-                altVideoUrl2: "https://drive.google.com/file/d/1cpK16Dp_3xVifQQahdMiahq44Jha-FKc/view?usp=drive_link",
+                id: "5-7",
+                name: "Topic 5.7",
+                description: "Sampling Distributions for Sample Means",
+                questionPdf: "pdfs/unit5/5.7_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.7_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/9a15613osy?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/em70n6vdbf?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1ovisJH6Caxyyg8bLqPfGINveGYqQGD39/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1J9UirY-l46WkrwlJRC-kX42vYd2t7_26/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-8",
-                name: "Topic 4.8",
-                description: "Mean and Standard Deviation of Random Variables",
-                questionPdf: "pdfs/unit4/4.8_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.8_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/qcoxl3r54z?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1KgvrdwR0U9ScngjSq4AS7WJ2ecuQzswu/view?usp=drive_link",
+                id: "5-8",
+                name: "Topic 5.8",
+                description: "Sampling Distributions for Differences in Sample Means",
+                questionPdf: "pdfs/unit5/5.8_quiz.pdf",
+                answersPdf: "pdfs/unit5/5.8_answers.pdf",
+                videoUrl: "https://apclassroom.collegeboard.org/d/vdhw7lx8zh?sui=33,5",
+                videoUrl2: "https://apclassroom.collegeboard.org/d/8tey1w8y00?sui=33,5",
+                altVideoUrl: "https://drive.google.com/file/d/1zaan99AFqpAEwbvLob9LwBqV-dji4Yli/view?usp=drive_link",
+                altVideoUrl2: "https://drive.google.com/file/d/1s-fZYap_45Cl2DKzsZV3l4UNs8RzCxNr/view?usp=drive_link",
                 completed: false
             },
             {
-                id: "4-9",
-                name: "Topic 4.9",
-                description: "Combining Random Variables",
-                questionPdf: "pdfs/unit4/4.9_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.9_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/fr03ec4ajm?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/eekak8j8le?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1welWQ8TTKlI1gBl4MrWzsd_NGeXZNanh/view?usp=drive_link",
-                altVideoUrl2: "https://drive.google.com/file/d/1Jqewt6n4TxqMtoQ_AAOXYfzyq9gh-x6M/view?usp=drive_link",
-                completed: false
-            },
-            {
-                id: "4-10",
-                name: "Topic 4.10",
-                description: "Introduction to the Binomial Distribution",
-                questionPdf: "pdfs/unit4/4.10_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.10_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/wut3wgzwsd?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1JC95sdBTR6XF2W9STnF9ENg8ki85B2oM/view?usp=drive_link",
-                completed: false
-            },
-            {
-                id: "4-11",
-                name: "Topic 4.11",
-                description: "Parameters for a Binomial Distribution",
-                questionPdf: "pdfs/unit4/4.11_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.11_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/5b5h0x75vo?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1Yb5FnTa4R-JbWUaAqNsWJtYtbMaWw2gd/view?usp=drive_link",
-                completed: false
-            },
-            {
-                id: "4-12",
-                name: "Topic 4.12",
-                description: "The Geometric Distribution",
-                questionPdf: "pdfs/unit4/4.12_quiz.pdf",
-                answersPdf: "pdfs/unit4/4.12_answers.pdf",
-                videoUrl: "https://apclassroom.collegeboard.org/d/bqu99yuglu?sui=33,4",
-                videoUrl2: "https://apclassroom.collegeboard.org/d/pjrxy0uy47?sui=33,4",
-                altVideoUrl: "https://drive.google.com/file/d/1PVmey_huN37gyeaxXfKMOJRKhdWpPY_N/view?usp=drive_link",
-                altVideoUrl2: "https://drive.google.com/file/d/1ZsUp6flFbcAnpDP6U2Jj_3iBbi3rfkjz/view?usp=drive_link",
-                completed: false
-            },
-            {
-                id: "4-capstone",
-                name: "Unit 4 Progress Check",
+                id: "5-capstone",
+                name: "Unit 5 Progress Check",
                 description: "Capstone Assessment",
-                questionPdf: "pdfs/unit4/unit4_pc_frq_quiz.pdf",
-                answersPdf: "pdfs/unit4/unit4_pc_frq_answers.pdf",
-                questionPdf2: "pdfs/unit4/unit4_pc_mcq_parta_quiz.pdf",
-                questionPdf3: "pdfs/unit4/unit4_pc_mcq_partb_quiz.pdf",
-                questionPdf4: "pdfs/unit4/unit4_pc_mcq_partc_quiz.pdf",
+                questionPdf: "pdfs/unit5/unit5_pc_frq_quiz.pdf",
+                answersPdf: "pdfs/unit5/unit5_pc_frq_answers.pdf",
+                questionPdf2: "pdfs/unit5/unit5_pc_mcq_parta_answers.pdf",
+                questionPdf3: "pdfs/unit5/unit5_pc_mcq_partb_answers.pdf",
+                questionPdf4: "pdfs/unit5/unit5_pc_mcq_partc_answers.pdf",
                 isCapstone: true,
                 completed: false
             },

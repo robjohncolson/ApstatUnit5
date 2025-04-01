@@ -1,15 +1,18 @@
 LPS+ColsonR@LPS-5CD32865BG MINGW64 ~/Downloads/ApstatUnit5 (main)
 $ ls -R
 .:
-Index-reference-spec.gemini.json  knowledge-tree.md  rename_pdfs.py
-claude-build-prompt.txt           ls-output.txt      tree-output.txt
-grok-gather-material-prompt.txt   pdf-map.txt        urls-map.md
-index.html                        pdfs/
+Index-reference-spec.gemini.json  grok-gather-material-prompt.txt  knowledge-tree.md  pdf-map.txt  rename_pdfs.py*  urls-map.md
+claude-build-prompt.txt           index.html                       ls-output.txt      pdfs/        tree-output.txt
 
 ./pdfs:
 unit5/
 
 ./pdfs/unit5:
+5.2_answers.pdf  5.3_quiz.pdf     5.5_answers.pdf  5.6_quiz.pdf     5.8_answers.pdf  unit5_pc_frq_answers.pdf        unit5_pc_mcq_partb_answers.pdf
+5.2_quiz.pdf     5.4_answers.pdf  5.5_quiz.pdf     5.7_answers.pdf  5.8_quiz.pdf     unit5_pc_frq_quiz.pdf           unit5_pc_mcq_partc_answers.pdf
+5.3_answers.pdf  5.4_quiz.pdf     5.6_answers.pdf  5.7_quiz.pdf     original_files/  unit5_pc_mcq_parta_answers.pdf
+
+./pdfs/unit5/original_files:
 SG_BiasedandUnbiasedPointEstimatesQuiz_67ec67710db1a7.67ec67722ed789.87614869.pdf
 SG_SamplingDistributionsforDifferencesinSampleMeansQuiz_67ec6a75ebb6e0.67ec6a77b40973.47594393.pdf
 SG_SamplingDistributionsforDifferencesinSampleProportionsQuiz_67ec69a03d0750.67ec69a213c636.13504996.pdf
