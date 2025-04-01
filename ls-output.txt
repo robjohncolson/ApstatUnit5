@@ -1,1 +1,31 @@
-Need New for Unit 5
+LPS+ColsonR@LPS-5CD32865BG MINGW64 ~/Downloads/ApstatUnit5 (main)
+$ ls -R
+.:
+Index-reference-spec.gemini.json  knowledge-tree.md  rename_pdfs.py
+claude-build-prompt.txt           ls-output.txt      tree-output.txt
+grok-gather-material-prompt.txt   pdf-map.txt        urls-map.md
+index.html                        pdfs/
+
+./pdfs:
+unit5/
+
+./pdfs/unit5:
+SG_BiasedandUnbiasedPointEstimatesQuiz_67ec67710db1a7.67ec67722ed789.87614869.pdf
+SG_SamplingDistributionsforDifferencesinSampleMeansQuiz_67ec6a75ebb6e0.67ec6a77b40973.47594393.pdf
+SG_SamplingDistributionsforDifferencesinSampleProportionsQuiz_67ec69a03d0750.67ec69a213c636.13504996.pdf
+SG_SamplingDistributionsforSampleMeansQuiz_67ec6a1733ca12.67ec6a1844ddc0.52222244.pdf
+SG_SamplingDistributionsforSampleProportionsQuiz_67ec68b14c7e94.67ec68b29e0247.73252576.pdf
+SG_TheCentralLimitTheoremQuiz_67ec672fc7e590.67ec6730e7f680.06951869.pdf
+SG_TheNormalDistributionRevisitedQuiz_67ec660f7acc43.67ec66110254f9.04602073.pdf
+SG_Unit5ProgressCheckFRQ_67ec6ad2a399b2.67ec6ad483f2e0.06826882.pdf
+SG_Unit5ProgressCheckMCQPartA_67ec6ab532b7f9.67ec6ab70019c4.28590385.pdf
+SG_Unit5ProgressCheckMCQPartB_67ec6ab8ecf4b4.67ec6abad484e6.42138900.pdf
+SG_Unit5ProgressCheckMCQPartC_67ec6abf84f802.67ec6ac123b4f8.30847736.pdf
+TB_BiasedandUnbiasedPointEstimatesQuiz_67ec676b8f8bd5.67ec676ca6b646.00048916.pdf
+TB_SamplingDistributionsforDifferencesinSampleMeansQuiz_67ec6a6fd47339.67ec6a71458bd7.15286753.pdf
+TB_SamplingDistributionsforDifferencesinSampleProportionsQuiz_67ec699b330391.67ec699c80e0c6.85051975.pdf
+TB_SamplingDistributionsforSampleMeansQuiz_67ec6a1253fc97.67ec6a134651c4.55972788.pdf
+TB_SamplingDistributionsforSampleProportionsQuiz_67ec68ad989c56.67ec68aebb79a1.25390796.pdf
+TB_TheCentralLimitTheoremQuiz_67ec672ad481a9.67ec672bcca7a6.55031727.pdf
+TB_TheNormalDistributionRevisitedQuiz_67ec660a846fd9.67ec660bab8d14.68519326.pdf
+TB_Unit5ProgressCheckFRQ_67ec6acc3e97a4.67ec6acda90738.27953393.pdf

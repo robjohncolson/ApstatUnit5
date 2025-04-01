@@ -1,18 +1,31 @@
-Please help me adapt my educational web materials from one unit to another in my AP course. Specifically:
+I need help adapting my AP Statistics educational web materials from Unit X to a new unit. Here's what I need:
 
-1. I have an index.html file currently designed for Unit X that needs to be converted to Unit Y
-2. I've provided several reference files:
-   - Index-reference-spec.json (design spec documentation)
-   - urls-map.md (listing all video URLs for the target unit)
-   - pdf-map.txt (mapping original PDF filenames to their recommended names)
-   - A directory listing showing all available files
+1. ANALYZE MY CODEBASE:
+   - First, examine index.html to understand the structure of the web application
+   - Review the Index-reference-spec.gemini.json file for detailed documentation
+   - Study the current pdfFiles array to understand topic organization
+   - Understand the PDF naming convention and how they relate to topics
 
-For this adaptation:
-- Update all titles, headings, and references from Unit X to Unit Y
-- Replace the pdfFiles array with entries for all topics in Unit Y
-- Ensure proper PDF paths point to the correct directory structure
-- Include all topics with their videos, even if some lack PDF materials
-- Preserve the general structure and functionality of the original
-- Update any unit-specific text throughout the file
+2. RENAME PDF FILES:
+   - I have PDF files with complex names (e.g., SG_TopicNameQuiz_67ec67722ed789.pdf) that need to be renamed
+   - Create a Python script (rename_pdfs.py) that will:
+     a) Map long topic names to topic numbers (e.g., "TopicName" → "X.2")
+     b) Preserve type distinctions where SG_ prefix = "answers" and TB_ prefix = "quiz" 
+     c) Create a backup of original files before renaming
+     d) Handle special cases like progress check files
+     e) Use the simplified naming convention: "X.2_quiz.pdf" and "X.2_answers.pdf"
+     f) Provide clear reporting on renamed and skipped files
 
-Please work methodically, explaining key changes and checking for any missed references to the original unit.
+3. UPDATE INDEX.HTML:
+   - After renaming PDFs, modify the pdfFiles array to:
+     a) Update all topic IDs, names, and descriptions based on the new unit
+     b) Update PDF file paths to point to the renamed files
+     c) Update video URLs using the urls-map.md file
+     d) Update any unit-specific text throughout the file (titles, headers, etc.)
+
+Available reference files:
+- urls-map.md: Contains video URLs for the new unit
+- pdf-map.txt: Maps original PDF filenames to topics
+- ls-output.txt: Directory listing showing actual PDF filenames
+
+Please work methodically through these tasks one at a time, explaining your approach and any modifications needed as you go.
