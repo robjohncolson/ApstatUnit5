@@ -1,0 +1,18 @@
+Please help me adapt my educational web materials from one unit to another in my AP course. Specifically:
+
+1. I have an index.html file currently designed for Unit X that needs to be converted to Unit Y
+2. I've provided several reference files:
+   - Index-reference-spec.json (design spec documentation)
+   - urls-map.md (listing all video URLs for the target unit)
+   - pdf-map.txt (mapping original PDF filenames to their recommended names)
+   - A directory listing showing all available files
+
+For this adaptation:
+- Update all titles, headings, and references from Unit X to Unit Y
+- Replace the pdfFiles array with entries for all topics in Unit Y
+- Ensure proper PDF paths point to the correct directory structure
+- Include all topics with their videos, even if some lack PDF materials
+- Preserve the general structure and functionality of the original
+- Update any unit-specific text throughout the file
+
+Please work methodically, explaining key changes and checking for any missed references to the original unit.

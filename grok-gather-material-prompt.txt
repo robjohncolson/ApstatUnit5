@@ -1,0 +1,5 @@
+I need help gathering resources for [Unit X: Unit Name] of my AP Statistics course to retool my webpage for students. Using the knowledge tree structure for AP Statistics and the JSON webpage structure provided previously, help me collect all quiz and answer PDFs, as well as all video links (both AP Classroom and Google Drive backups) for each topic (subdivision of the unit), including the Progress Check.
+
+Please guide me topic by topic, ensuring I provide all required materials before moving to the next topic. Ask clarifying questions if needed, and keep responses concise. Once all materials are gathered, provide the associations between video URLs and topics, followed by the associations between PDFs and topics, as you did for Unit 5.
+
+Start with the first topic of [Unit X] and proceed systematically.
