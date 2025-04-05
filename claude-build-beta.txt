@@ -1,0 +1,68 @@
+# Task: Convert AP Statistics Unit 4 website to Unit 5
+
+## Essential files to modify:
+- **index.html**: Main website to update from Unit 4 to Unit 5
+
+## Core changes (in order of importance):
+1. Change all Unit 4 references to Unit 5 throughout index.html
+2. Update exam weight from 10-20% to 7-12% for Unit 5
+3. Update PDF paths from `pdfs/unit4/4.X_quiz.pdf` to `pdfs/unit5/5.X_quiz.pdf`
+4. Replace video links using URLs from urls-map.md
+5. Update the capstone section with Unit 5's progress check components
+
+## Implementation guidance:
+Focus on these specific pattern changes:
+
+```
+"Unit 4" → "Unit 5"
+"Probability, Random Variables, and Probability Distributions" → "Sampling Distributions"
+"10-20%" → "7-12%"
+"pdfs/unit4/4." → "pdfs/unit5/5."
+"id: "4-" → "id: "5-"
+"name: "Topic 4." → "name: "Topic 5."
+"unit4_pc" → "unit5_pc"
+```
+
+In the JavaScript pdfFiles array, update each topic object following this example:
+```javascript
+// FROM:
+{
+    id: "4-1",
+    name: "Topic 4.1",
+    description: "Introducing Statistics: Random and Non-Random Patterns?",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/7vn9faj6p9?sui=33,4",
+            // ...
+        }
+    ],
+    // ...
+}
+
+// TO:
+{
+    id: "5-1",
+    name: "Topic 5.1",
+    description: "Introducing Statistics: Why Is My Sample Not Like Yours?",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/[new-url]?sui=33,5",
+            // ...
+        }
+    ],
+    // ...
+}
+```
+
+## Important notes:
+- Replace all video URLs with ones from urls-map.md for Unit 5
+- Make sure to update ID values everywhere (HTML IDs and JavaScript references)
+- All PDF paths must use the new pattern
+- Update both content text and variable names/identifiers
+
+## Reference files:
+- **ls-output.txt** : Directory & Subdirectory contents
+- **index-spec.json** : Reference for index.html structure
+- **urls-map.md**: Contains all Unit 5 video links
+- **pdf-map.txt**: Maps Unit 5 PDF filenames
+- **knowledge-tree.md**: Shows complete AP Statistics curriculum structure

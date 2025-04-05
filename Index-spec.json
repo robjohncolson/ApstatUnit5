@@ -1,0 +1,244 @@
+{
+  "description": "Reference specification for the AP Statistics Unit 4 learning tool HTML page.",
+  "fileName": "index.html",
+  "version": "1.0",
+  "technologyStack": [
+    {
+      "name": "HTML",
+      "version": "5",
+      "purpose": "Structure of the web page."
+    },
+    {
+      "name": "CSS",
+      "framework": "Tailwind CSS (via CDN)",
+      "purpose": "Styling and layout."
+    },
+    {
+      "name": "JavaScript",
+      "libraries": [
+        {
+          "name": "React",
+          "version": "18 (via CDN)",
+          "purpose": "UI library for the 'Learning Flow' tab."
+        },
+        {
+          "name": "ReactDOM",
+          "version": "18 (via CDN)",
+          "purpose": "Rendering React components into the DOM."
+        },
+        {
+          "name": "Babel Standalone",
+          "version": "latest (via CDN)",
+          "purpose": "Transpiling JSX for the inline React component."
+        },
+        {
+          "name": "Mermaid.js",
+          "version": "latest (via CDN)",
+          "purpose": "Rendering the flowchart diagram."
+        }
+      ],
+      "purpose": "Interactivity, dynamic content generation, state management (progress tracking), event handling."
+    },
+    {
+      "name": "LocalStorage",
+      "purpose": "Persisting user progress across sessions."
+    }
+  ],
+  "structure": {
+    "head": {
+      "elements": [
+        {"type": "meta", "attributes": {"charset": "UTF-8"}},
+        {"type": "meta", "attributes": {"name": "viewport", "content": "width=device-width, initial-scale=1.0"}},
+        {"type": "title", "content": "AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions"},
+        {"type": "script", "attributes": {"src": "Tailwind CDN"}},
+        {"type": "script", "attributes": {"src": "React CDN"}},
+        {"type": "script", "attributes": {"src": "ReactDOM CDN"}},
+        {"type": "script", "attributes": {"src": "Babel Standalone CDN"}},
+        {"type": "script", "attributes": {"src": "Mermaid.js CDN"}},
+        {"type": "style", "purpose": "Custom styles for tab active/inactive states and content visibility."}
+      ]
+    },
+    "body": {
+      "layout": "Single page application style with tabbed interface.",
+      "container": "div.container.mx-auto",
+      "header": {
+        "tag": "header",
+        "elements": [
+          {"tag": "h1", "content": "Page Title"},
+          {"tag": "p", "content": "Subtitle"},
+          {"tag": "div", "content": "Exam Weight Info"}
+        ]
+      },
+      "tabNavigation": {
+        "container": "div.flex.mb-0.border-b",
+        "tabs": [
+          {"id": "tab-learning-flow", "text": "Learning Flow"},
+          {"id": "tab-flowchart", "text": "Flowchart"},
+          {"id": "tab-grok-prompt", "text": "Grok Prompt"},
+          {"id": "tab-study-materials", "text": "Study Materials"}
+        ],
+        "interaction": "Clicking a tab button activates it and displays the corresponding content pane."
+      },
+      "tabContentContainer": {
+        "container": "div.bg-white.rounded-b-lg.shadow-md.p-6",
+        "contentPanes": [
+          {
+            "id": "content-learning-flow",
+            "controlledBy": "tab-learning-flow",
+            "content": "React component 'APStatLearningFlow' rendered into #learning-flow-app.",
+            "purpose": "Provides a step-by-step guide on how to use the learning resources."
+          },
+          {
+            "id": "content-flowchart",
+            "controlledBy": "tab-flowchart",
+            "content": "Displays a Mermaid.js flowchart visualizing the learning process.",
+            "elements": [
+              {"tag": "h2"},
+              {"tag": "p"},
+              {"tag": "div#flowchart", "class": "mermaid", "purpose": "Mermaid render target"},
+              {"tag": "div", "purpose": "Flowchart legend"}
+            ]
+          },
+          {
+            "id": "content-grok-prompt",
+            "controlledBy": "tab-grok-prompt",
+            "layout": "Two-column grid (md+)",
+            "content": "Integrated workflow for using Grok AI with study materials.",
+            "elements": [
+              {"column": "left", "elements": [
+                {"tag": "h3", "content": "1. Get the Prompt"},
+                {"tag": "pre#grok-prompt", "purpose": "Displays the pre-defined Grok prompt."},
+                {"tag": "button#copy-button", "purpose": "Copies prompt text to clipboard."},
+                {"tag": "a", "href": "https://grok.com", "purpose": "Link to open Grok."},
+                {"tag": "h3", "content": "2. Video Learning Guide"},
+                {"tag": "ol", "purpose": "Instructions for using Grok with PDFs."},
+                {"tag": "div", "purpose": "Link to help video."}
+              ]},
+              {"column": "right", "elements": [
+                 {"tag": "h3#current-topic-header", "content": "3. Practice with Current Topic"},
+                 {"tag": "div#current-topic-info", "purpose": "Dynamically displays details (name, description, links, checkboxes) of the current or next topic."},
+                 {"tag": "button#complete-current-topic-btn", "purpose": "Marks the displayed topic as complete or resets progress if all done."},
+                 {"tag": "h3.grok-prompt-topics-header", "content": "4. Track Your Progress"},
+                 {"tag": "div#quick-access-topics", "purpose": "Dynamically displays compact cards for all topics, showing status and allowing quick access/status change via checkboxes."}
+              ]}
+            ],
+             "sharedElements": [
+              {"tag": "div", "purpose": "Explanation of (+) icon for video backups."}
+            ]
+          },
+          {
+            "id": "content-study-materials",
+            "controlledBy": "tab-study-materials",
+            "content": "Provides access to all study materials (videos, PDFs) organized by topic, with progress tracking.",
+            "elements": [
+              {"tag": "h2"},
+              {"tag": "p"},
+              {"tag": "div", "purpose": "Explanation of (+) icon for video backups."},
+              {"tag": "div#all-completed-container", "purpose": "Displays congratulations message and reset button when all topics are done.", "initiallyHidden": true},
+              {"tag": "button#reset-progress-btn", "purpose": "Resets all stored progress."},
+              {"tag": "div", "purpose": "CTA banner linking to Grok Prompt tab."},
+              {"tag": "label", "for": "topic-select"},
+              {"tag": "select#topic-select", "purpose": "Dropdown to navigate to specific topic cards."},
+              {"tag": "div#progress-container", "elements": [
+                {"tag": "div#progress-bar", "purpose": "Visual representation of overall completion percentage."}
+              ]},
+              {"tag": "div#topic-cards-container", "purpose": "Dynamically populated with topic cards."},
+              {"tag": "div#next-topic-container", "purpose": "Highlights the next recommended topic.", "initiallyHidden": true, "elements": [
+                  {"tag": "div#next-topic-card"}
+              ]}
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "dataStructures": {
+    "javascript": [
+      {
+        "name": "flowchartDefinition",
+        "type": "String",
+        "purpose": "Contains the Mermaid syntax for the flowchart."
+      },
+      {
+        "name": "grokPrompt",
+        "type": "String",
+        "purpose": "Contains the predefined text prompt for the Grok AI assistant."
+      },
+      {
+        "name": "pdfFiles",
+        "type": "Array<Object>",
+        "purpose": "Core data structure holding information about each learning topic.",
+        "objectProperties": [
+          {"name": "id", "type": "String", "description": "Unique identifier (e.g., '4-1')."},
+          {"name": "name", "type": "String", "description": "Topic name (e.g., 'Topic 4.1')."},
+          {"name": "description", "type": "String", "description": "Brief description of the topic."},
+          {"name": "videos", "type": "Array<Object>", "description": "List of videos for the topic.", "objectProperties": [
+            {"name": "url", "type": "String", "description": "Primary video URL (AP Classroom)."},
+            {"name": "altUrl", "type": "String | null", "description": "Backup video URL (Google Drive) or null."},
+            {"name": "completed", "type": "Boolean", "description": "Tracks user completion."},
+            {"name": "completionDate", "type": "String | null", "description": "ISO date string when completed."}
+          ]},
+          {"name": "quizzes", "type": "Array<Object>", "description": "List of quizzes/practice PDFs.", "objectProperties": [
+            {"name": "questionPdf", "type": "String | null", "description": "Path to the questions PDF."},
+            {"name": "answersPdf", "type": "String | null", "description": "Path to the answers PDF."},
+            {"name": "quizId", "type": "String", "description": "Unique ID for the quiz within the topic."},
+            {"name": "completed", "type": "Boolean", "description": "Tracks user completion."},
+            {"name": "completionDate", "type": "String | null", "description": "ISO date string when completed."}
+          ]},
+          {"name": "current", "type": "Boolean", "description": "Indicates if this is the currently focused topic."},
+          {"name": "isCapstone", "type": "Boolean", "optional": true, "description": "Flags the topic as a final unit assessment."},
+          {"name": "completed", "type": "Boolean", "legacy_description": "Older flag indicating overall topic completion, now derived from video/quiz completion."}
+        ]
+      }
+    ]
+  },
+  "functionality": {
+    "tabManagement": {
+      "trigger": "Click on tab buttons",
+      "action": "Updates active tab style, hides inactive content panes, shows active content pane. Rerenders Flowchart or updates Study Materials/Grok Prompt tabs if activated."
+    },
+    "flowchartRendering": {
+      "library": "Mermaid.js",
+      "trigger": "Flowchart tab activation or page load if active.",
+      "action": "Parses `flowchartDefinition` and renders SVG chart in `#flowchart` div. Includes re-rendering logic."
+    },
+    "reactComponent": {
+      "name": "APStatLearningFlow",
+      "location": "#learning-flow-app",
+      "purpose": "Interactive step-by-step guide.",
+      "state": "Manages `currentStep`.",
+      "features": ["Progress tracking dots", "Step content display", "Pro tips", "Navigation buttons (Prev/Next)"]
+    },
+    "grokPromptInteraction": {
+      "copyButton": "Copies `grokPrompt` text to clipboard using `navigator.clipboard` with fallback. Provides visual feedback.",
+      "grokLink": "Opens grok.com in a new tab.",
+      "currentTopicDisplay": "Dynamically shows the 'current' topic from `pdfFiles`, including links and checkboxes. Updates when `current` topic changes or progress is made.",
+      "quickAccessTopics": "Dynamically shows all topics with status indicators, links, and checkboxes. Allows marking items complete and setting a topic as 'current' by clicking the card.",
+      "completeButton": "Marks all items in the currently displayed topic complete, advances the 'current' topic, and updates UI/localStorage. Changes to a 'Reset Progress' button when all topics are done."
+    },
+    "studyMaterialsInteraction": {
+      "topicCards": "Dynamically generated from `pdfFiles` via `createTopicCard`. Display topic info, status (current, completed, capstone), links, and checkboxes. Capstone locked until prerequisites met.",
+      "checkboxes": "Allow users to mark individual videos/quizzes as complete. Triggers `handleItemCompletionChange`.",
+      "markCompletedButton": "Marks all items in the topic card as complete. Triggers `markTopicAsCompleted`.",
+      "topicSelectDropdown": "Populated with topic names. Selecting an option scrolls the corresponding card into view.",
+      "progressBar": "Calculates and displays overall progress based on completed items vs. total items.",
+      "nextTopicDisplay": "Shows the next incomplete topic card after the current one is completed (if not all done).",
+      "allCompletedMessage": "Shown when all items across all topics are marked complete.",
+      "resetButton": "Clears all completion data from `pdfFiles` and `localStorage`."
+    },
+    "progressTracking": {
+      "storage": "Browser LocalStorage",
+      "key": "apStatsTopicProgress",
+      "dataStored": "Completion status (`completed`, `completionDate`) for each video and quiz item, and the `current` topic flag.",
+      "loadAction": "Reads from LocalStorage on page load or tab activation, updates the `pdfFiles` array.",
+      "saveAction": "Writes the current state of `pdfFiles` (relevant properties) to LocalStorage whenever completion status changes.",
+      "granularity": "Tracks completion per individual video and quiz item."
+    },
+    "eventHandling": "Uses `DOMContentLoaded` for setup and attaches event listeners for clicks (tabs, buttons, links, cards) and changes (checkboxes, select dropdown)."
+  },
+  "styling": {
+    "framework": "Tailwind CSS",
+    "custom": "Inline `<style>` block for tab-specific states (`active`, content visibility)."
+  },
+  "initialization": "On `DOMContentLoaded`, sets up Grok prompt text, initializes tab switching, attaches event listeners (copy, reset), loads progress from LocalStorage, and renders initial content based on the default active tab."
+}
