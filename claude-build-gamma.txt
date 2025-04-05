@@ -1,0 +1,37 @@
+# Efficient Unit Conversion Prompt: Unit 5 to Unit 6
+
+```
+Convert AP Statistics Unit 5 (Sampling Distributions) to Unit 6 (Inference for Categorical Data: Proportions) by:
+
+1. Replace all "Unit 5" with "Unit 6" in HTML title, headers, and content
+2. Update exam weight: "7-12%" → "12-15%"
+3. Replace all paths: "pdfs/unit5/5." → "pdfs/unit6/6."
+4. Update pdfFiles array:
+   - Change id: "5-n" → "6-n" for all topics
+   - Change name: "Topic 5.n" → "Topic 6.n"
+   - Update descriptions from knowledge-tree.md (Unit 6 topics)
+   - Replace video URLs with links from urls-map.md for Unit 6
+   - Update quiz PDF paths using pdf-map.txt for Unit 6
+   - Update all quiz IDs: "5-n_q1" → "6-n_q1"
+5. Update capstone: "5-capstone" → "6-capstone" with correct PDF paths
+6. Change localStorage key: "apStatsUnit5TopicProgress" → "apStatsUnit6TopicProgress"
+
+Note: Unit 6 has 11 topics (6.1-6.11) vs. Unit 5's 8 topics - additional topics need to be added.
+
+Use these files for reference:
+- knowledge-tree.md (Unit 6 topics & descriptions)
+- urls-map.md (Unit 6 video links)
+- pdf-map.txt (Unit 6 PDF mappings)
+- ls-output.txt (directory structure)
+
+Verify all changes to ensure complete conversion with no references to Unit 5 remaining.
+```
+
+This prompt is specifically tailored for converting from Unit 5 to Unit 6, including:
+
+1. The correct unit titles (Unit 5: Sampling Distributions → Unit 6: Inference for Categorical Data: Proportions)
+2. The specific exam weight change (7-12% → 12-15%)
+3. A note about the difference in topic count (Unit 5 has 8 topics while Unit 6 has 11)
+4. Clear instructions for updating all references to maintain consistency
+
+This will provide a clear, systematic approach for the next conversion task.
