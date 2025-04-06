@@ -1,21 +1,15 @@
-LPS+ColsonR@LPS-5CD32865BG MINGW64 ~/Downloads/apstat/unit 5 (main)
-$ ls -lR
 .:
-total 294
--rw-r--r-- 1 LPS+ColsonR 4096  13627 Apr  5 13:10 Index-spec.json
--rw-r--r-- 1 LPS+ColsonR 4096   1753 Apr  2 19:12 claude-build-prompt.txt
--rw-r--r-- 1 LPS+ColsonR 4096   2353 Apr  5 13:25 claude-build.txt
--rw-r--r-- 1 LPS+ColsonR 4096     89 Apr  2 19:12 gemini-index-spec-maker.txt
--rw-r--r-- 1 LPS+ColsonR 4096    818 Apr  2 19:12 grok-gather-material-prompt.txt
--rw-r--r-- 1 LPS+ColsonR 4096 122930 Apr  5 13:02 index.html
--rw-r--r-- 1 LPS+ColsonR 4096   6813 Apr  2 19:12 knowledge-tree.md
--rw-r--r-- 1 LPS+ColsonR 4096   2418 Apr  2 19:12 ls-output.txt
--rw-r--r-- 1 LPS+ColsonR 4096   3465 Apr  2 19:12 pdf-map.txt
+total 228
+-rw-r--r-- 1 LPS+ColsonR 4096 208931 Apr  6 16:57 index.html
+drwxr-xr-x 1 LPS+ColsonR 4096      0 Apr  6 16:59 js/
+-rw-r--r-- 1 LPS+ColsonR 4096   6813 Apr  5 13:34 knowledge-tree.md
+-rw-r--r-- 1 LPS+ColsonR 4096   5218 Apr  5 13:34 ls-output.txt
 drwxr-xr-x 1 LPS+ColsonR 4096      0 Apr  2 19:12 pdfs/
--rwxr-xr-x 1 LPS+ColsonR 4096   3416 Apr  2 19:12 rename_pdfs.py*
--rw-r--r-- 1 LPS+ColsonR 4096 111913 Apr  5 13:17 staged_changes_to_index.diff
--rw-r--r-- 1 LPS+ColsonR 4096    169 Apr  2 19:12 tree-output.txt
--rw-r--r-- 1 LPS+ColsonR 4096   4288 Apr  2 19:12 urls-map.md
+-rw-r--r-- 1 LPS+ColsonR 4096   2772 Apr  6 17:00 transition-claude.txt
+
+./js:
+total 96
+-rw-r--r-- 1 LPS+ColsonR 4096 94487 Apr  5 22:23 allUnitsData.js
 
 ./pdfs:
 total 244
@@ -66,3 +60,4 @@ total 6020
 -rw-r--r-- 1 LPS+ColsonR 4096 228557 Apr  2 19:12 TB_TheCentralLimitTheoremQuiz_67ec672ad481a9.67ec672bcca7a6.55031727.pdf
 -rw-r--r-- 1 LPS+ColsonR 4096 265496 Apr  2 19:12 TB_TheNormalDistributionRevisitedQuiz_67ec660a846fd9.67ec660bab8d14.68519326.pdf
 -rw-r--r-- 1 LPS+ColsonR 4096 335269 Apr  2 19:12 TB_Unit5ProgressCheckFRQ_67ec6acc3e97a4.67ec6acda90738.27953393.pdf
+
