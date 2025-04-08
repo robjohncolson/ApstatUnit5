@@ -21,8 +21,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [],
         current: false
-      },
-      {
+    },
+    {
         id: "1-2",
         name: "Topic 1.2",
         description: "The Language of Variation: Variables",
@@ -36,16 +36,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.2_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.2_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.2_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.2_answers.pdf",
                 quizId: "1-2_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-3",
         name: "Topic 1.3",
         description: "Representing a Categorical Variable with Tables",
@@ -59,16 +59,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.3_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.3_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.3_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.3_answers.pdf",
                 quizId: "1-3_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-4",
         name: "Topic 1.4",
         description: "Representing a Categorical Variable with Graphs",
@@ -88,16 +88,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.4_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.4_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.4_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.4_answers.pdf",
                 quizId: "1-4_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-5",
         name: "Topic 1.5",
         description: "Representing a Quantitative Variable with Graphs",
@@ -111,16 +111,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.5_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.5_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.5_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.5_answers.pdf",
                 quizId: "1-5_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-6",
         name: "Topic 1.6",
         description: "Describing the Distribution of a Quantitative Variable",
@@ -134,16 +134,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.6_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.6_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.6_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.6_answers.pdf",
                 quizId: "1-6_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-7",
         name: "Topic 1.7",
         description: "Summary Statistics for a Quantitative Variable",
@@ -163,16 +163,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.7_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.7_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.7_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.7_answers.pdf",
                 quizId: "1-7_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-8",
         name: "Topic 1.8",
         description: "Graphical Representations of Summary Statistics",
@@ -186,16 +186,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.8_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.8_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.8_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.8_answers.pdf",
                 quizId: "1-8_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-9",
         name: "Topic 1.9",
         description: "Comparing Distributions of a Quantitative Variable",
@@ -209,16 +209,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.9_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.9_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.9_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.9_answers.pdf",
                 quizId: "1-9_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-10",
         name: "Topic 1.10",
         description: "The Normal Distribution",
@@ -244,16 +244,16 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit1/1.10_quiz.pdf",
-                answersPdf: "pdfs/unit1/1.10_answers.pdf",
+                questionPdf: "pdfs/unit1/unit1_section1.10_quiz.pdf",
+                answersPdf: "pdfs/unit1/unit1_section1.10_answers.pdf",
                 quizId: "1-10_q1",
                 completed: false,
                 completionDate: null
             }
         ],
         current: false
-      },
-      {
+    },
+    {
         id: "1-capstone",
         name: "Unit 1 Progress Check",
         description: "Capstone Assessment",
@@ -321,8 +321,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.2_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.2_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.2_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.2_answers.pdf",
                 quizId: "2-2_q1",
                 completed: false,
                 completionDate: null
@@ -344,8 +344,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.3_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.3_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.3_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.3_answers.pdf",
                 quizId: "2-3_q1",
                 completed: false,
                 completionDate: null
@@ -373,8 +373,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.4_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.4_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.4_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.4_answers.pdf",
                 quizId: "2-4_q1",
                 completed: false,
                 completionDate: null
@@ -402,8 +402,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.5_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.5_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.5_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.5_answers.pdf",
                 quizId: "2-5_q1",
                 completed: false,
                 completionDate: null
@@ -431,8 +431,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.6_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.6_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.6_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.6_answers.pdf",
                 quizId: "2-6_q1",
                 completed: false,
                 completionDate: null
@@ -460,8 +460,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.7_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.7_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.7_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.7_answers.pdf",
                 quizId: "2-7_q1",
                 completed: false,
                 completionDate: null
@@ -495,8 +495,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.8_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.8_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.8_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.8_answers.pdf",
                 quizId: "2-8_q1",
                 completed: false,
                 completionDate: null
@@ -524,8 +524,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit2/2.9_quiz.pdf",
-                answersPdf: "pdfs/unit2/2.9_answers.pdf",
+                questionPdf: "pdfs/unit2/unit2_section2.9_quiz.pdf",
+                answersPdf: "pdfs/unit2/unit2_section2.9_answers.pdf",
                 quizId: "2-9_q1",
                 completed: false,
                 completionDate: null
@@ -562,7 +562,7 @@ const ALL_UNITS_DATA = [
             }
         ],
         isCapstone: true,
-        current: false
+        current: false  
       }
        // --- END OF PASTED Unit 2 DATA ---
     ]
@@ -591,21 +591,21 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.2",
         description: "Introduction to Planning a Study",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/zntfxmmdts?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/121AAheYGEysRFC58l3KVJVkBVJmPo--U/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          {
+            url: "https://apclassroom.collegeboard.org/d/zntfxmmdts?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/121AAheYGEysRFC58l3KVJVkBVJmPo--U/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.2_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.2_answers.pdf",
-                quizId: "3-2_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.2_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.2_answers.pdf",
+            quizId: "3-2_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -614,27 +614,16 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.3",
         description: "Random Sampling and Data Collection",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/0we2mcfcam?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1ogJAzU5hvGomK2eZGCkMza7EOpU67BaT/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/ljd0cb2e7u?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1jiVMlN3Y_xdARYHGB1ASbOSwroRfuFCB/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          /* video entries */
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.3_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.3_answers.pdf",
-                quizId: "3-3_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.3_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.3_answers.pdf",
+            quizId: "3-3_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -643,21 +632,16 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.4",
         description: "Potential Problems with Sampling",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/tndkb7he2i?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1o3YuZt7Kai5qovHysWo4vaXlHp3WXtc9/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          /* video entries */
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.4_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.4_answers.pdf",
-                quizId: "3-4_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.4_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.4_answers.pdf",
+            quizId: "3-4_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -666,33 +650,16 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.5",
         description: "Introduction to Experimental Design",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/k19v0dbk86?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1PVA-SIVNccjFYexZsUrHbdCps1wlKeBl/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/z5lwfxjjdv?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1x43Gy-QtIflBQXHe39LqIkABco0qrkMi/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/0xfkk5691j?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1pp-KwUGnBS-6RWvB4U5eKxopkCOYQ9KD/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          /* video entries */
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.5_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.5_answers.pdf",
-                quizId: "3-5_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.5_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.5_answers.pdf",
+            quizId: "3-5_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -701,27 +668,16 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.6",
         description: "Selecting an Experimental Design",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/2ausyc2u4j?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/14I05d33AzFvCrjTAFSxtAlPiFLEuspZK/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/01da23635a?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/1DQZQMZVzesDILUqzVetIysD7DB94UYVT/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          /* video entries */
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.6_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.6_answers.pdf",
-                quizId: "3-6_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.6_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.6_answers.pdf",
+            quizId: "3-6_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -730,21 +686,16 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.7",
         description: "Inference and Experiments",
         videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/cgkp7vw65d?sui=33,3",
-                altUrl: "https://drive.google.com/file/d/10TnxIb09QzsRvYQm-G3eiWQ5CSrELuJz/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+          /* video entries */
         ],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/3.7_quiz.pdf",
-                answersPdf: "pdfs/unit3/3.7_answers.pdf",
-                quizId: "3-7_q1",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_section3.7_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_section3.7_answers.pdf",
+            quizId: "3-7_q1",
+            completed: false,
+            completionDate: null
+          }
         ],
         current: false
       },
@@ -754,27 +705,27 @@ const ALL_UNITS_DATA = [
         description: "Capstone Assessment",
         videos: [],
         quizzes: [
-            {
-                questionPdf: "pdfs/unit3/unit3_pc_frq_quiz.pdf",
-                answersPdf: "pdfs/unit3/unit3_pc_frq_answers.pdf",
-                quizId: "3-capstone_q1",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: "pdfs/unit3/unit3_pc_mcq_parta_answers.pdf",
-                answersPdf: null,
-                quizId: "3-capstone_q2",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: "pdfs/unit3/unit3_pc_mcq_partb_answers.pdf",
-                answersPdf: null,
-                quizId: "3-capstone_q3",
-                completed: false,
-                completionDate: null
-            }
+          {
+            questionPdf: "pdfs/unit3/unit3_pc_frq_quiz.pdf",
+            answersPdf: "pdfs/unit3/unit3_pc_frq_answers.pdf",
+            quizId: "3-capstone_q1",
+            completed: false,
+            completionDate: null
+          },
+          {
+            questionPdf: "pdfs/unit3/unit3_pc_mcq_parta_answers.pdf",
+            answersPdf: null,
+            quizId: "3-capstone_q2",
+            completed: false,
+            completionDate: null
+          },
+          {
+            questionPdf: "pdfs/unit3/unit3_pc_mcq_partb_answers.pdf",
+            answersPdf: null,
+            quizId: "3-capstone_q3",
+            completed: false,
+            completionDate: null
+          }
         ],
         isCapstone: true,
         current: false
@@ -783,264 +734,604 @@ const ALL_UNITS_DATA = [
     ]
   },
   {
+    id: "4-3",
+    name: "Topic 4.3",
+    description: "Introduction to Probability",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/3naih8n3ar?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1eAYcRNceHy01t7bmARB3vtTDZnNNqmOV/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/4.3_quiz.pdf",
+            answersPdf: "pdfs/unit4/4.3_answers.pdf",
+            quizId: "4-3_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+  },
+  {
+    id: "4-3",
+    name: "Topic 4.3",
+    description: "Introduction to Probability",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/3naih8n3ar?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1eAYcRNceHy01t7bmARB3vtTDZnNNqmOV/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.3_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.3_answers.pdf",
+            quizId: "4-3_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.4
+{
+    id: "4-4",
+    name: "Topic 4.4",
+    description: "Mutually Exclusive Events",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/owppp11zpq?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1TRJBAVaIbAWWLREvsDgRCxf0sNcFkpxf/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.4_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.4_answers.pdf",
+            quizId: "4-4_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.5
+{
+    id: "4-5",
+    name: "Topic 4.5",
+    description: "Conditional Probability",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/d4g6056pk8?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1fpXLiPwBKO3kqppTWm4FpqjCcHX3Qf84/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.5_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.5_answers.pdf",
+            quizId: "4-5_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.6
+{
+    id: "4-6",
+    name: "Topic 4.6",
+    description: "Independent Events and Unions of Events",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/nsd56rqpjj?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1TwLZF8dM35fcduBwRzmQUWgSTCynk5tV/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        },
+        {
+            url: "https://apclassroom.collegeboard.org/d/5dfvjr08nh?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1qOQsPzsOeNQJHu18PJwUbfsQyjrdP2pV/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        },
+        {
+            url: "https://apclassroom.collegeboard.org/d/j9zx3pjmpi?sui=33,4",
+            altUrl: null,
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.6_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.6_answers.pdf",
+            quizId: "4-6_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.7
+{
+    id: "4-7",
+    name: "Topic 4.7",
+    description: "Introduction to Random Variables and Probability Distributions",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/qgm2j1noql?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1UgJNPPVuG8ZGUobUD-KfM_EQz9AKfgAX/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        },
+        {
+            url: "https://apclassroom.collegeboard.org/d/a7hqt3u3mr?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1cpK16Dp_3xVifQQahdMiahq44Jha-FKc/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.7_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.7_answers.pdf",
+            quizId: "4-7_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.8
+{
+    id: "4-8",
+    name: "Topic 4.8",
+    description: "Mean and Standard Deviation of Random Variables",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/qcoxl3r54z?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1KgvrdwR0U9ScngjSq4AS7WJ2ecuQzswu/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.8_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.8_answers.pdf",
+            quizId: "4-8_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.9
+{
+    id: "4-9",
+    name: "Topic 4.9",
+    description: "Combining Random Variables",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/fr03ec4ajm?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1welWQ8TTKlI1gBl4MrWzsd_NGeXZNanh/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        },
+        {
+            url: "https://apclassroom.collegeboard.org/d/eekak8j8le?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1Jqewt6n4TxqMtoQ_AAOXYfzyq9gh-x6M/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.9_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.9_answers.pdf",
+            quizId: "4-9_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.10
+{
+    id: "4-10",
+    name: "Topic 4.10",
+    description: "Introduction to the Binomial Distribution",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/wut3wgzwsd?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1JC95sdBTR6XF2W9STnF9ENg8ki85B2oM/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.10_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.10_answers.pdf",
+            quizId: "4-10_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.11
+{
+    id: "4-11",
+    name: "Topic 4.11",
+    description: "Parameters for a Binomial Distribution",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/5b5h0x75vo?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1Yb5FnTa4R-JbWUaAqNsWJtYtbMaWw2gd/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.11_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.11_answers.pdf",
+            quizId: "4-11_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.12
+{
+    id: "4-12",
+    name: "Topic 4.12",
+    description: "The Geometric Distribution",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/bqu99yuglu?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1PVmey_huN37gyeaxXfKMOJRKhdWpPY_N/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        },
+        {
+            url: "https://apclassroom.collegeboard.org/d/pjrxy0uy47?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1ZsUp6flFbcAnpDP6U2Jj_3iBbi3rfkjz/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.12_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.12_answers.pdf",
+            quizId: "4-12_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Capstone
+{
+    id: "4-capstone",
+    name: "Unit 4 Progress Check",
+    description: "Capstone Assessment",
+    videos: [],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_pc_frq_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_pc_frq_answers.pdf",
+            quizId: "4-capstone_q1",
+            completed: false,
+            completionDate: null
+        },
+        {
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_parta_answers.pdf",
+            answersPdf: null,
+            quizId: "4-capstone_q2",
+            completed: false,
+            completionDate: null
+        },
+        {
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_partb_answers.pdf",
+            answersPdf: null,
+            quizId: "4-capstone_q3",
+            completed: false,
+            completionDate: null
+        },
+        {
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_partc_answers.pdf",
+            answersPdf: null,
+            quizId: "4-capstone_q4",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    isCapstone: true,
+    current: false
+  },
+  {
     unitId: 'unit5',
-    topics: [
-      // --- PASTE Unit 5's pdfFiles ARRAY CONTENT HERE ---
-      {
-        id: "5-1",
-        name: "Topic 5.1",
-        description: "Introducing Statistics: Why Is My Sample Not Like Yours?",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/951j439qxl?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1QtdgRvz6FDzTKK4UgACKVxdqJMyZDGR8/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [],
-        current: false
-      },
-      {
-        id: "5-2",
-        name: "Topic 5.2",
-        description: "The Normal Distribution, Revisited",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/3ahfseusno?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1JFYjH0zXcPRk4Z18dTnbqWQLhu6IM_y3/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/xas8ymbml4?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1pRBVyjLPY1aEPGbkTdYzt5aPlQIy9FDW/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/5cjfnynb4w?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1HVGa0OuHML6pHhGdp4UOln6oncX3n53_/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.2_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.2_answers.pdf",
-                quizId: "5-2_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-3",
-        name: "Topic 5.3",
-        description: "The Central Limit Theorem",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/sayt12b4ew?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1N5xTQ9hpOwIDTxbF0AxIzPxxaCbmOWaA/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/7vvumt4qzm?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1Lrf2azQI_qx0zLOyp0Yn-TS11zK4fb5u/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.3_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.3_answers.pdf",
-                quizId: "5-3_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-4",
-        name: "Topic 5.4",
-        description: "Biased and Unbiased Point Estimates",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/0k9y4dbl6i?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1n0CE4BjYdx_bRDz-iEH2FyK7sfgcG3Mj/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.4_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.4_answers.pdf",
-                quizId: "5-4_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-5",
-        name: "Topic 5.5",
-        description: "Sampling Distributions for Sample Proportions",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/n68xwj4nrz?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1y1iW173PGADlfmDuZuvUYwg-czY2FKCo/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/3hds9p8qlq?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1EosOt0OTG3faHrdnkhQy-SrFdAxRndjF/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.5_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.5_answers.pdf",
-                quizId: "5-5_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-6",
-        name: "Topic 5.6",
-        description: "Sampling Distributions for Differences in Sample Proportions",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/hl9fyvkpih?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1XufYZpotzaSRppEfFckSzr6mVavfTWoX/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/ik3wqrxnwg?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1_C6vTO44i3ypH5wU2XYU53BOa4whSZxW/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.6_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.6_answers.pdf",
-                quizId: "5-6_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-7",
-        name: "Topic 5.7",
-        description: "Sampling Distributions for Sample Means",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/9a15613osy?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1ovisJH6Caxyyg8bLqPfGINveGYqQGD39/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/em70n6vdbf?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1J9UirY-l46WkrwlJRC-kX42vYd2t7_26/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.7_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.7_answers.pdf",
-                quizId: "5-7_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-8",
-        name: "Topic 5.8",
-        description: "Sampling Distributions for Differences in Sample Means",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/vdhw7lx8zh?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1zaan99AFqpAEwbvLob9LwBqV-dji4Yli/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/8tey1w8y00?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1s-fZYap_45Cl2DKzsZV3l4UNs8RzCxNr/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.8_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.8_answers.pdf",
-                quizId: "5-8_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-capstone",
-        name: "Unit 5 Progress Check",
-        description: "Capstone Assessment",
-        videos: [],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/unit5_pc_frq_quiz.pdf",
-                answersPdf: "pdfs/unit5/unit5_pc_frq_answers.pdf",
-                quizId: "5-capstone_q1",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_parta_answers.pdf",
-                quizId: "5-capstone_q2",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_partb_answers.pdf",
-                quizId: "5-capstone_q3",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_partc_answers.pdf",
-                quizId: "5-capstone_q4",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        isCapstone: true,
-        current: false
+  topics: [
+    {
+      id: "5-1",
+      name: "Topic 5.1",
+      description: "Introducing Statistics: Why Is My Sample Not Like Yours?",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/951j439qxl?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1QtdgRvz6FDzTKK4UgACKVxdqJMyZDGR8/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [],
+      current: false
+    },
+    {
+      id: "5-2",
+      name: "Topic 5.2",
+      description: "The Normal Distribution, Revisited",
+      videos: [
+        {
+              url: "https://apclassroom.collegeboard.org/d/3ahfseusno?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1JFYjH0zXcPRk4Z18dTnbqWQLhu6IM_y3/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/xas8ymbml4?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1pRBVyjLPY1aEPGbkTdYzt5aPlQIy9FDW/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/5cjfnynb4w?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1HVGa0OuHML6pHhGdp4UOln6oncX3n53_/view?usp=drive_link",
+          completed: false,
+          completionDate: null
+        }
+      ],
+      quizzes: [
+        {
+              questionPdf: "pdfs/unit5/unit5_section5.2_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.2_answers.pdf",
+              quizId: "5-2_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-3",
+      name: "Topic 5.3",
+      description: "The Central Limit Theorem",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/sayt12b4ew?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1N5xTQ9hpOwIDTxbF0AxIzPxxaCbmOWaA/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/7vvumt4qzm?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1Lrf2azQI_qx0zLOyp0Yn-TS11zK4fb5u/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.3_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.3_answers.pdf",
+              quizId: "5-3_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-4",
+      name: "Topic 5.4",
+      description: "Biased and Unbiased Point Estimates",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/0k9y4dbl6i?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1n0CE4BjYdx_bRDz-iEH2FyK7sfgcG3Mj/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.4_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.4_answers.pdf",
+              quizId: "5-4_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-5",
+      name: "Topic 5.5",
+      description: "Sampling Distributions for Sample Proportions",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/n68xwj4nrz?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1y1iW173PGADlfmDuZuvUYwg-czY2FKCo/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/3hds9p8qlq?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1EosOt0OTG3faHrdnkhQy-SrFdAxRndjF/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.5_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.5_answers.pdf",
+              quizId: "5-5_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-6",
+      name: "Topic 5.6",
+      description: "Sampling Distributions for Differences in Sample Proportions",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/hl9fyvkpih?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1XufYZpotzaSRppEfFckSzr6mVavfTWoX/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/ik3wqrxnwg?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1_C6vTO44i3ypH5wU2XYU53BOa4whSZxW/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.6_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.6_answers.pdf",
+              quizId: "5-6_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-7",
+      name: "Topic 5.7",
+      description: "Sampling Distributions for Sample Means",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/9a15613osy?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1ovisJH6Caxyyg8bLqPfGINveGYqQGD39/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/em70n6vdbf?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1J9UirY-l46WkrwlJRC-kX42vYd2t7_26/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.7_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.7_answers.pdf",
+              quizId: "5-7_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-8",
+      name: "Topic 5.8",
+      description: "Sampling Distributions for Differences in Sample Means",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/vdhw7lx8zh?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1zaan99AFqpAEwbvLob9LwBqV-dji4Yli/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/8tey1w8y00?sui=33,5",
+              altUrl: "https://drive.google.com/file/d/1s-fZYap_45Cl2DKzsZV3l4UNs8RzCxNr/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_section5.8_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_section5.8_answers.pdf",
+              quizId: "5-8_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "5-capstone",
+      name: "Unit 5 Progress Check",
+      description: "Capstone Assessment",
+      videos: [],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit5/unit5_pc_frq_quiz.pdf",
+              answersPdf: "pdfs/unit5/unit5_pc_frq_answers.pdf",
+              quizId: "5-capstone_q1",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit5/unit5_pc_mcq_parta_answers.pdf",
+              quizId: "5-capstone_q2",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit5/unit5_pc_mcq_partb_answers.pdf",
+              quizId: "5-capstone_q3",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit5/unit5_pc_mcq_partc_answers.pdf",
+              quizId: "5-capstone_q4",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      isCapstone: true,
+      current: false
       }
       // --- END OF PASTED Unit 5 DATA ---
     ]
