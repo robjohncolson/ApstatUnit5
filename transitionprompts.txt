@@ -13,6 +13,8 @@ Very creative, but I'm looking for somethign more.. standard.  Create a code sni
 
 Please replace all references of Unit 3 to Unit5.
 
+Restrict modifcations to index.html!
+
 Unit 5's AP exam weight is 7-12%
 
 3
